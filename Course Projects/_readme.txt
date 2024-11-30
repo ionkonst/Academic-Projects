@@ -1,0 +1,1 @@
+Some coding projects i did for university courses
