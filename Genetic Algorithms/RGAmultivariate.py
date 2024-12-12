@@ -1,7 +1,9 @@
+"""
+Multivariate RGA developed to test genetic algorithm performance on Heston stochastic volatility model's parameter calibration
+"""
 import numpy as np
 import random as rd
 import matplotlib.pyplot as plt
-
 
 class RealValuedGeneticAlgorithm:
     def __init__(self, objective_function, bounds, population_size, generations, 
